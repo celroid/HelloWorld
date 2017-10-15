@@ -7,7 +7,7 @@
 int main() //c++ programs start by executing the function main
 {
 	cout << "Hello, World!\n"; // output "Hello, World!"
-	system("pause");
+	keep_window_open(); //waits for a character to be entered
 	return 0;
 }
 
